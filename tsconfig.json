@@ -7,7 +7,6 @@
     "strict": true,
     "esModuleInterop": true,
     "declaration": true,
-    "emitDeclarationOnly": true,
   },
   "include": [
     "src/**/*"
