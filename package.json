@@ -1,0 +1,34 @@
+{
+  "name": "animation-frame-loop",
+  "description": "A small wrapper to take care of tracking delta time between frames. Useful for animations or other frame reliant things.",
+  "keywords": [
+    "animation",
+    "deltatime"
+  ],
+  "version": "1.2.2",
+  "main": "src/index.js",
+  "files": [
+    "src/index.js"
+  ],
+  "scripts": {
+    "lint": "eslint ./src",
+    "test": "vitest watch",
+    "test:once": "vitest",
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "devDependencies": {
+    "eslint": "^9.18.0",
+    "globals": "^15.14.0",
+    "happy-dom": "^16.5.3",
+    "typescript": "^5.7.3",
+    "vitest": "^2.1.5"
+  },
+  "type": "module",
+  "author": "Mitchel Jager",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mitcheljager/tiny-fingerprint"
+  },
+  "license": "Unlicense (https://choosealicense.com/licenses/unlicense/)"
+}
