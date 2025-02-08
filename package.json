@@ -5,10 +5,10 @@
     "animation",
     "deltatime"
   ],
-  "version": "1.0.0",
-  "main": "src/index.js",
+  "version": "1.0.1",
+  "main": "dist/index.js",
   "files": [
-    "src/index.js"
+    "dist"
   ],
   "scripts": {
     "lint": "eslint ./src",
