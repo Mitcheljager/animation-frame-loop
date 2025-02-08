@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>body { background: black; color: white; }</style>
+  </head>
+
+  <body>
+    <div id="fps"></div>
+    <div id="frames"></div>
+    <div id="delta"></div>
+  </body>
+
+  <script type="module" src="./dist/index.js"></script>
+  <script type="module">
+    import { AnimationFrameLoop } from "./dist/index.js"
+
+    new AnimationFrameLoop(({ currentFps, totalElapsedTime, deltaTime }) => {
+      document.querySelector("#fps").innerHTML = currentFps
+      document.querySelector("#frames").innerHTML = totalElapsedTime
+      document.querySelector("#delta").innerHTML = deltaTime
+    })
+  </script>
+</html>
